@@ -1,0 +1,145 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Mypage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.mypagedata {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 35px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+    text-align: left;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1.5px solid #333;
+    border-radius: 15px;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"], button {
+    background-color: transparent; /* 배경색 투명 */
+    color: #ffffff; /* 글자색 흰색 */
+    border: 2px solid #ffffff; /* 흰색 테두리 추가 */
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* 테두리 색상 변경 추가 */
+    margin: 10px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #ffffff; /* 호버 시 배경색 흰색 */
+    color: #000000; /* 호버 시 글자색 검정색 */
+    border-color: #ffffff; /* 호버 시 테두리 색상 흰색 */
+}
+
+.upload_btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.upload_btn:hover {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit_btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 12px 60px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px 0;
+}
+
+.edit_btn:hover {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

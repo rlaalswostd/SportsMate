@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.memplus-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.memplus-form {
+    background-color: #222;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.memplus-form h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: #ddd;
+    display: block;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.form-group input:focus {
+    border-color: #666;
+    outline: none;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 120px;
+    background-color: #ffffff; /* 버튼 배경을 하얀색으로 변경 */
+    color: #000000; /* 버튼 글자를 검은색으로 변경 */
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0; /* 호버 시 배경색을 약간 밝은 회색으로 변경 */
+}
